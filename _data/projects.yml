@@ -6,6 +6,10 @@
   url: https://www.calendarserver.org
   description: The Calendar and Contacts Server project is a standards-compliant server implementing the CalDAV and CardDAV protocols.
 
+- name: CUPS
+  url: https://www.cups.org
+  description: CUPS is the standards-based, open source printing system developed by Apple for macOS and other UNIX-like operating systems.
+
 - name: Darwinbuild
   url: https://macosforge.github.io/darwinbuild/
   description: Darwinbuild is a collection of tools that assist compilation of the many projects contained in Darwin, the open source base of macOS.
