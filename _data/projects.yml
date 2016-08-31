@@ -6,9 +6,9 @@
   url: https://www.calendarserver.org
   description: The Calendar and Contacts Server project is a standards-compliant server implementing the CalDAV and CardDAV protocols.
 
-- name: DarwinBuild
+- name: Darwinbuild
   url: https://macosforge.github.io/darwinbuild/
-  description: DarwinBuild is a collection of tools that assist compilation of the many projects contained in Darwin, the open source base of macOS.
+  description: Darwinbuild is a collection of tools that assist compilation of the many projects contained in Darwin, the open source base of macOS.
 
 - name: Darwin Streaming Server
   url: https://macosforge.github.io/dss/
