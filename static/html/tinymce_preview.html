@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/css/forge.css" />
+    <link rel="stylesheet" href="/static/css/boxes.css" />
+    <script language="javascript" src="/static/js/tiny_mce/tiny_mce_popup.js"></script>
+    <script type="text/javascript" src="/static/js/tiny_mce/jscripts/embed.js"></script>
+    <script type="text/javascript">
+        tinyMCEPopup.onInit.add(function(ed) {
+	var dom = tinyMCEPopup.dom;
+	dom.setHTML('content', ed.getContent());
+        });
+    </script>
+    <title>Mac OS Forge Post Preview</title>
+</head>
+
+<body>
+
+<div class="innerpinfg" id="content">
+<!-- Gets filled with editor contents -->
+</div>
+
+</body>
+</html>

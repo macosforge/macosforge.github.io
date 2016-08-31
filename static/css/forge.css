@@ -1,0 +1,154 @@
+.form-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.form-message {
+	      font-size: 1.0em;
+	      color: #992299;
+}
+
+.form-prompt {
+	     font-size: 0.8em;
+	     margin: 30px;
+}
+
+.updates {
+	 border: thin black ridge;
+	 width: 100%;
+}
+
+.updates th {
+	   background-color: #333333;
+	   color: white;
+}
+
+.updates tr.odd {
+	 background-color: #dddddd;
+}
+
+td {
+   padding: 3px 0px 3px 0px;
+}
+
+.message {
+  padding-left: 20px;
+}
+
+form th {
+      text-align: right;
+}
+
+tr.odd {
+}
+
+tr.even {
+       background-color: #eeeeee;
+}
+
+.list tr:hover {
+	 background-color: #ddddff;
+}
+
+
+
+.list {
+      width: 100%;
+      border: thin black ridge;
+}
+
+.list th {
+      background-color: #cccccc;
+      color: black;
+}
+
+.create-link {
+	     font-size: 1.0em;
+	     margin: 10px;
+}	     
+
+
+/* 
+ *  Reordering
+ */ 
+.reorder_container {
+		   -webkit-border-radius: 10px;
+		   -moz-border-radius: 10px;
+		   border: thin black ridge;
+		   float: left;
+		   padding: 10px 20px 20px 20px;
+}
+
+.reorder_heading {
+		 font-weight: bold;
+		 font-size: 1.1em;
+}		 
+
+.reorder_helper {
+		width: 100px;
+		float: left;	
+}		
+
+.reorder_list {
+	      list-style-type: none;	     
+}
+
+.reorder_container ul {
+		   margin-left: 0px;
+		   padding-left: 0px;
+}
+
+.reorder_container ul li, #dragHelper {
+		   -webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+		   cursor: pointer;
+		   padding: 2px 4px;
+		   background-color: #444444;
+		   margin: 1px;
+		   color: #ffffff;
+		   text-align: center;
+}
+
+#reorder_list_top li {
+		  top: -10px;
+		  float: left;
+}
+
+.reorder_save {
+	      padding: 20px 90px 0px 70px;
+}
+
+.reorder_save .submit {
+	      font-size: 1.2em;
+}
+	
+.reorder_text {
+	      padding: 0px 50px 0px 50px;
+	      margin-bottom: 20px;
+}
+
+#left_container {
+		margin: 30px 0px 0px 30px;		
+}
+
+#top_container {
+	       margin: 30px 0px 0px 30px;
+}
+
+
+.errorlist {
+	   list-style-type: none;
+}
+
+.errorlist li {
+	   color: #990000;
+	   font-weight: bold;	   
+}
+
+.tinymce-code-help {
+		   width: 50%;
+		   margin-top: 20px;
+		   font-size: 0.7em;
+		   border: thin black ridge;
+		   background-color: #dddddd;
+}

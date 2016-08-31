@@ -1,0 +1,349 @@
+body {
+     font-family: Lucida Grande, Verdana, Arial, Helvetica, sans-serif;
+     font-size: 13px;
+     font-size-adjust: none;
+     font-stretch: normal;
+     font-variant: normal;
+     font-weight: normal;
+
+     background-color: #ffffff;
+     margin: 0px 0px 0px 3px;
+     padding: 0px;
+     min-width: 800px;
+}
+
+a { 
+  font-family: Myriad Apple, Myriad, Lucida Grande, Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  font-weight: bold;
+}
+
+#left-nav, #top-nav, #auth-nav {
+	   color: #666666;
+	   background-color: rgb(194, 202, 216);
+}
+
+a img { border-style: none; border-width: 0px;}
+a:link { color: #0000cc; text-decoration: none; border-bottom: none;}
+a:visited { color: #0000cc; text-decoration: none; border-bottom: none;}
+a:hover { color: #7777ff; text-decoration: none; border-bottom: none; background-color: white;}
+a:link:hover { color: #7777ff; text-decoration: none; background-color: white;}
+a:visited:hover { color: #7777ff; text-decoration: none; background-color: white; }
+
+
+#left-nav a, #top-nav a, #auth-nav a { 
+	  color: #000000; 
+	  font-size: 1.0em;
+}
+
+#left-nav .navlink-item:hover, #top-nav a:hover, #auth-nav a:hover { 
+	  cursor: pointer;
+	  color: #ffffff;
+	  background-color: #444444;
+}
+
+#left-nav .navlink-item, #top-nav a {
+	  color: #000000;
+	  padding: 3px;
+	  font-weight: bold;
+	  margin: 10px 0px 10px 0px;
+	  -webkit-border-radius: 6px;
+	  -moz-border-radius: 6px;
+}
+
+#auth-nav a {
+	  padding: 3px;
+	  font-weight: bold;
+	  margin: 2px 0px 2px 0px;
+	  -webkit-border-radius: 6px;
+	  -moz-border-radius: 6px;
+}
+
+#left-nav #forge-footer a {
+	  color: #000000;
+}
+
+#left-nav #forge-footer a:hover {
+	  color: #ffffff;
+	  background-color: rgb(194, 202, 216);
+}
+
+a:active { color: #999900; text-decoration: none; border-bottom: none;}
+
+#forge-header {
+	width: 100%;
+	height: 65px;
+}
+
+#forge-header > div {
+	float: left;	    
+}
+
+#forge-header > div#auth-nav {
+	float: right;	 
+	position: absolute;
+	right: 0px;   
+	font-size:0.8em;
+}
+
+#forge-outter {
+	width: 99%;
+	min-height: 400px;
+}
+
+#forge-outter > div {
+	float: left;
+}
+
+#forge-inner {
+    	width: 83.5%;
+}
+
+#forge-content {
+	       margin-left: 20px;
+}
+
+#forge-logo {
+	width: 140px;
+}
+
+#forge-logo img {
+ 	width: 130px;
+}
+
+#forge-project {
+    	width: 80%;
+	margin: 0px auto;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#forge-project img {
+	height: 60px;
+	margin: 0px auto;	
+}
+
+#forge-project a, #forge-project a:hover {
+	font-size: 1.8em;
+	font-weight: bold;
+	color: black;
+	background: #ffffff;
+}
+
+#forge-project-name {
+        vertical-align: 50%;
+}
+
+#auth-nav {
+	text-align: right;
+	padding-right: 3px;
+}
+
+#left-nav {
+	  width: 120px;
+	  min-height: 600px;
+	  padding: 10px 5px 10px 5px;
+	  -webkit-border-radius: 10px;
+	  -moz-border-radius: 10px;
+}
+
+#left-nav > .heading {
+	  font-size: 1.2em;
+}
+
+#projects-list-heading {
+       color: #666666;
+       border-top: thin white ridge;
+       padding-top: 5px;
+       margin-top: 5px;
+}		       
+
+.project-nav, .project-list {
+	  padding-left: 10px;
+	  padding-bottom: 50px;
+	  text-align: left;
+}
+
+#top-nav {
+	 min-height: 7px;
+	 text-align: center;	 
+	 padding: 7px 5px 7px 5px;
+	 margin-bottom: 7px;
+	 margin-left: 10px;
+	 -webkit-border-radius: 10px;
+	 -moz-border-radius: 10px;
+}
+
+#forge-footer {
+	 border-top: thin white ridge;
+	 padding-top: 10px;
+	 margin-top: 50px;
+	 height: 85px;
+	 font-size: 0.65em;
+}
+
+#forge-footer a {
+	font-size: 1.0em;
+}
+
+#forge-footer > div {
+	 float: left;
+	 text-align: left;
+}	      
+
+#footerlinks ul {
+	 list-style-type: none;
+}
+
+table.listing tbody tr:hover {
+	 background: #ddddee none repeat scroll 0% !important;
+}
+
+
+#header {
+	display: none;
+}
+
+/* MacPorts Ticket Guide Links */
+.macports-ticket-guide {
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        font-size: 1.2em;
+}
+
+.macports-ticket-guide a {
+        color: #990000;
+        font-size: 1.2em;
+}
+
+.posts {
+
+       width: 100%;
+       height: 100%;
+}
+
+.post {
+      margin: 20px;
+}
+
+.post .post-title {
+      top: 0%;
+      width: 100%;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      vertical-align: middle;      
+      border-bottom: thin dotted #444444;
+}
+
+.post .post-title a {
+      font-size: 1.2em;
+}
+
+.post .post-meta {
+      margin-top: -38px;
+      font-size: 0.8em;
+      float: right;
+      font-weight: bold;
+}
+
+.post .post-content {
+      padding-left: 10px;
+}
+
+.post-subheading {
+		 font-weight: bold;
+}
+
+.post-code {
+	   white-space: pre;
+	   font-family: courier,monospace;
+	   font-size: 10px;
+	   text-align: left;
+	   background: #F7F7F7 none repeat scroll 0% 0%;
+	   border: 1px solid #D7D7D7;
+	   margin: 1em 1.75em;
+	   overflow: auto;
+	   padding: 0.25em;
+}
+
+#feedlink {
+	  float: right;
+}
+
+.project-desc {
+	      padding: 10px 0px 10px 20px;
+	      margin-bottom: 20px;
+	      margin-left: -20px;
+	      background-color: #e5e5e5;
+	      width: 100%;
+}
+
+#admin-menu {
+	    margin-top: 10px;
+}
+
+#auth-nav {
+	  color: #000000;
+	  background-color: rgb(194, 202, 216);
+	  font-size: 1.0em;
+	  cursor: pointer;
+ 	  padding: 5px 7px 5px 7px;
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+}
+
+a.submit, .submit, input[type="submit"] {
+	  color: #000000;
+	  background-color: rgb(194, 202, 216);
+	  font-size: 1.0em;
+	  cursor: pointer;
+	  border: thin #666666 ridge;
+ 	  padding: 3px 5px 3px 5px;
+	  -webkit-border-radius: 4px;
+	  -moz-border-radius: 4px;
+}
+
+a.submit:hover, .submit:hover, input[type="submit"]:hover, #auth-nav a:hover {
+	  color: #ffffff; 
+	  background-color: #444444;
+}
+
+a.back-button, .backbutton, input[type="button"].back-button {
+	       color: #aa0000;
+}
+
+/* Override Trac */
+#content.ticket {
+		width: 100%;
+}
+
+#ticket {
+	background-color: #eeeeee;
+}
+
+#ticket table.properties {
+	border-top: 1px ridge #aaaaaa;
+}
+
+#ticket table.properties tr {
+	border-bottom: 1px ridge #aaaaaa;
+}	
+
+#ticket .description h3 {
+	border-bottom: 2px ridge #aaaaaa;
+}
+
+#ticket .description a:hover, #ticket a:hover {
+	background-color: #eeeeee;		   
+}
+
+#ticket a.submit:hover {
+	background-color: #444444;
+}
+
+a.mail-link .icon { 
+	background: none; 
+        padding: inherit; 
+} 

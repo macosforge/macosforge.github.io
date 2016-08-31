@@ -1,0 +1,37 @@
+/*
+ * Monitor Styles 
+ */
+table.status {
+  width: 100%;
+  border: thin black ridge;
+  font-size: 0.8em;
+}
+
+.selected {
+  font-weight: bold;
+  color: blue;
+}
+
+.header-row {
+  font-weight: bold;
+  background-color: #dddddd;
+}
+
+.up-row {
+  background-color: #ddffdd;
+}
+
+.down-row {
+  background-color: #ffdddd;
+}
+
+tr.status-row:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status .time-column {
+  background-color: #dddddd;
+  width: 17%;
+}
+
