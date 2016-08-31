@@ -52,4 +52,4 @@
 
 - name: XQuartz
   url: https://www.xquartz.org
-  description: The XQuartz project is an open-source effort to develop a version of the X.Org X Window System that runs on macOS.
+  description: The XQuartz project is an open source effort to develop a version of the X.Org X Window System that runs on macOS.
