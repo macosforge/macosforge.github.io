@@ -1,3 +1,4 @@
+baseurl: ""
 defaults:
   -
     scope:
@@ -5,3 +6,5 @@ defaults:
     values:
       layout: "default"
 permalink: pretty
+title: "Mac OS Forge"
+url: "https://www.macosforge.org"
