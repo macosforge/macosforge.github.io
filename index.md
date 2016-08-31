@@ -10,8 +10,8 @@ Mac OS Forge hosted [open source](https://opensource.org/) projects closely rela
   {% for project in site.data.projects %}
   <a href="{{ project.url }}">
     <div class="col-md-4 col-sm-6">
-      <h4>{{ project.name }}</h4>
-      <p>{{ project.description }}</p>
+      <h4>{{ project.name | escape }}</h4>
+      <p>{{ project.description | escape }}</p>
     </div>
   </a>
   {% endfor %}
