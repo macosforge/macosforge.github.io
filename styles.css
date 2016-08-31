@@ -1,0 +1,58 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin-bottom: 3em;
+}
+
+.sticky-footer {
+  bottom: 0;
+  height: 3em;
+  padding: 1em 0;
+  position: absolute;
+  width: 100%;
+}
+
+.macosforge-logo, .macosforge-logo a {
+  color: rgb(194, 202, 216);
+  font-family: "Myriad Set Pro", "Myriad Pro", "Myriad Set", Myriad, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.macosforge-logo-forge {
+  background: rgb(194, 202, 216);
+  border-radius: 0.2em;
+  color: #fff;
+  padding: 0.1em 0.2em;
+  text-transform: lowercase;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.macosforge-projects div {
+  padding-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  .macosforge-projects div {
+    min-height: 10em;
+    padding-bottom: 0;
+  }
+}
+
+.macosforge-projects a:hover {
+  text-decoration: none;
+}
+
+.macosforge-projects a:hover h4 {
+  text-decoration: underline;
+}
+
+.macosforge-projects a p {
+  color: #333;
+}

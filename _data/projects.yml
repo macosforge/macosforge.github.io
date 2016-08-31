@@ -1,0 +1,51 @@
+- name: Apple Lossless Audio Codec
+  url: https://macosforge.github.io/alac/
+  description: The Apple Lossless Audio Codec (ALAC) is an audio codec developed by Apple which reduces the size of audio files with no loss of information.
+
+- name: Calendar and Contacts Server
+  url: https://www.calendarserver.org
+  description: The Calendar and Contacts Server project is a standards-compliant server implementing the CalDAV and CardDAV protocols.
+
+- name: DarwinBuild
+  url: https://macosforge.github.io/darwinbuild/
+  description: DarwinBuild is a collection of tools that assist compilation of the many projects contained in Darwin, the open source base of macOS.
+
+- name: Darwin Streaming Server
+  url: https://macosforge.github.io/dss/
+  description: Darwin Streaming Server (DSS) allows you to send streaming media to clients across the Internet using the industry standard RTP and RTSP protocols.
+
+- name: DCE/RPC
+  url: http://www.dcerpc.org
+  description: DCE/RPC is an implementation of the Remote Procedure Call technology developed by the Open Group as part of the Distributed Computing Environment.
+
+- name: FS Tools
+  url: https://macosforge.github.io/fstools/
+  description: The Filesystem Tools project is a place where the Apple filesystem teams publish tools used to test the filesystems in macOS.
+
+- name: Grand Central Dispatch
+  url: https://github.com/apple/swift-corelibs-libdispatch
+  description: Grand Central Dispatch (GCD or libdispatch) provides comprehensive support for concurrent code execution on multicore hardware.
+
+- name: MacPorts
+  url: https://www.macports.org
+  description: The MacPorts package management system makes it easy to install, upgrade and uninstall software on your Mac.
+
+- name: SCAP on Apple
+  url: https://scaponapple.github.io
+  description: SCAP on Apple provides authoritative information, tools and support for the Security Content Automation Protocol community on Apple platforms.
+
+- name: SmartCard Services
+  url: https://smartcardservices.github.io
+  description: The components of the SmartCard Services project provide the necessary abstraction layer and integration of SmartCards into Apple's CDSA implementation.
+
+- name: WebKit
+  url: http://webkit.org
+  description: WebKit is the web browser engine used by Safari, App Store, and many other macOS, iOS, and Linux applications.
+
+- name: ValidateMP4
+  url: https://github.com/macosforge/ValidateMP4
+  description: ValidateMP4 validates and analyzes MP4 (MPEG-4 Part 14) media files.
+
+- name: XQuartz
+  url: https://www.xquartz.org
+  description: The XQuartz project is an open-source effort to develop a version of the X.Org X Window System that runs on macOS.
