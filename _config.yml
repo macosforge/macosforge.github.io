@@ -11,5 +11,5 @@ exclude:
   - Gemfile.lock
   - README.md
 permalink: pretty
-title: "Mac OS Forge"
+title: "macOS forge"
 url: "https://www.macosforge.org"
