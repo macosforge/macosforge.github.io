@@ -34,6 +34,10 @@
   url: https://www.macports.org
   description: The MacPorts package management system makes it easy to install, upgrade and uninstall software on your Mac.
 
+- name: MacRuby
+  url: http://macruby.org
+  description: MacRuby is an implementation of Ruby 1.9 on top of the Objective-C runtime and garbage collector, the LLVM compiler infrastructure and the Foundation and ICU frameworks.
+
 - name: SCAP on Apple
   url: https://scaponapple.github.io
   description: SCAP on Apple provides authoritative information, tools and support for the Security Content Automation Protocol community on Apple platforms.
