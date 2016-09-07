@@ -47,7 +47,7 @@
   description: The components of the Smart Card Services project provide the necessary abstraction layer and integration of smart cards into Apple's CDSA implementation.
 
 - name: WebKit
-  url: http://webkit.org
+  url: https://webkit.org
   description: WebKit is the web browser engine used by Safari, App Store, and many other macOS, iOS, and Linux applications.
 
 - name: ValidateMP4
