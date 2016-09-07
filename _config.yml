@@ -1,15 +1,22 @@
 baseurl: ""
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/post/:title/"
+excerpt_separator: <!--more-->
 exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - README.md
+gems:
+  - jekyll-feed
 permalink: pretty
 title: "macOS forge"
 url: "https://www.macosforge.org"
