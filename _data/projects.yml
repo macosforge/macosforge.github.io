@@ -22,9 +22,9 @@
   url: http://www.dcerpc.org
   description: DCE/RPC is an implementation of the Remote Procedure Call technology developed by the Open Group as part of the Distributed Computing Environment.
 
-- name: FS Tools
+- name: Filesystem Tools
   url: https://macosforge.github.io/fstools/
-  description: The Filesystem Tools project is a place where the Apple filesystem teams publish tools used to test the filesystems in macOS.
+  description: The Filesystem Tools project (FS Tools) is where the Apple filesystem teams publish tools used to test the filesystems in macOS.
 
 - name: Grand Central Dispatch
   url: https://github.com/apple/swift-corelibs-libdispatch
