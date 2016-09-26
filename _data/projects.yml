@@ -27,7 +27,7 @@
   description: The Filesystem Tools project (FS Tools) is where the Apple filesystem teams publish tools used to test the filesystems in macOS.
 
 - name: Grand Central Dispatch
-  url: https://github.com/apple/swift-corelibs-libdispatch
+  url: https://apple.github.io/swift-corelibs-libdispatch/
   description: Grand Central Dispatch (GCD or libdispatch) provides comprehensive support for concurrent code execution on multicore hardware.
 
 - name: MacPorts
